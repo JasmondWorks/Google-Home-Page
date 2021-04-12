@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 15px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+div.apps-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+div.apps-account button:first-child {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+div.apps-account button:first-child:hover {
+    background-color: #ececec;
+}
+
+.apps {
+    width: 23px;
+}
+
+.account {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #BF360C;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.account:hover {
+    box-shadow: 0 0 15px #a8a8a8;
+}
+
+a {
+    text-decoration: none;
+    color: #6F6F6F;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    color: black;
+    margin-left: 15px;
+    font-size: small;
+}
+
+main {
+    text-align: center;
+}
+
+main div {
+    margin-bottom: 20px;
+}
+
+div.search-box {
+    width: 43%;
+    margin: 20px auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+div.search-box input:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgb(202, 202, 202);
+}
+
+div.search-box input:hover {
+    outline: none;
+    box-shadow: 0 0 5px rgb(202, 202, 202);
+}
+
+div.search-box input {
+    font-size: 1rem;
+    padding: 13px 50px;
+    width: 100%;
+    border-radius: 25px;
+    border: 1px solid #DADCE0;
+}
+
+i:last-child {
+    color: #4285F4;
+    font-size: larger;
+}
+
+.fas {
+    color: #B3B7BC;
+}
+
+.fa-search {
+    position: absolute;
+    left: 3%;
+}
+
+.fa-microphone {
+    position: absolute;
+    right: 3%;
+}
+
+div.search-btns button {
+    padding: 10px 20px;
+    background-color: #F8F9FA;
+    margin: 5px;
+    border-radius: 2px;
+    font-size: 0.9rem;
+}
+
+div.search-btns button:hover {
+    box-shadow: 0 0 3px rgb(172, 172, 172);
+}
+
+div.languages {
+    font-size: 0.8rem;
+}
+
+div.languages a {
+    color: #1A0DAB;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #6F6F6F;
+    font-size: 0.9rem;
+    background-color: #F2F2F2;
+}
+
+.footer-top {
+    padding: 15px 30px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.footer-top p {
+    margin: 0;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 20px;
+}
+
+.footer-bottom-left {
+    display: inline-block;
+    width: 33.3%;
+    text-align: left;
+    font-size: 0;
+}
+
+.footer-bottom-left a {
+    padding: 0 15px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-bottom-right {
+    display: inline-block;
+    width: 33.3%;
+    text-align: right;
+    font-size: 0;
+}
+
+.footer-bottom-right a {
+    padding: 0 15px;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.sustainability-container {
+    display: inline-block;
+    width: 33.3%;
+}
+
+.sustainability {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sustainability img {
+    width: 15px;
+    height: 15px;
+}
+
+.sustainability img,
+a {
+    margin: 0 3px;
+}
